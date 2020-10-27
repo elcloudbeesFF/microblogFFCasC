@@ -2,6 +2,11 @@
 type: experiment
 flag: default.headerColor
 availableValues:
-  - is-dark
+  - is-white
   - is-primary
-value: is-dark
+  - is-dark
+conditions:
+  - group:
+      name: BetaUsers
+    value: is-white
+value: is-primary
