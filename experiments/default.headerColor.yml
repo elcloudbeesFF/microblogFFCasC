@@ -1,0 +1,8 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+enabled: false
+flag: default.headerColor
+availableValues:
+  - is-dark
+  - is-primary
+value: is-dark
