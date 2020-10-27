@@ -5,4 +5,13 @@ flag: default.headerColor
 availableValues:
   - is-primary
   - is-dark
+  - is-white
+conditions:
+  - value:
+      - percentage: 33
+        option: is-primary
+      - percentage: 33
+        option: is-dark
+      - percentage: 34
+        option: is-white
 value: is-white
