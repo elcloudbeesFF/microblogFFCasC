@@ -6,4 +6,9 @@ description: >-
   http://cbcd.cb-demos.io/commander/link/jobDetails/eb188770-0466-f160-a91e-027cf1007f4e
 enabled: false
 flag: default.sidebar
-value: true
+conditions:
+  - group:
+      operator: and
+      name: BetaUsers
+    value: true
+value: false
