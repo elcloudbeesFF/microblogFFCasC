@@ -4,5 +4,6 @@ name: experiment for flag default.sidebar
 description: >-
   Created automatically by EC-FeatureFlags-1.0.2.2020092301
   http://cbcd.cb-demos.io/commander/link/jobDetails/eb188770-0466-f160-a91e-027cf1007f4e
+labels: Experimental-UI
 flag: default.sidebar
 value: false
