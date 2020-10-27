@@ -5,8 +5,4 @@ availableValues:
   - is-white
   - is-primary
   - is-dark
-conditions:
-  - group:
-      name: BetaUsers
-    value: is-white
-value: is-primary
+value: is-white
