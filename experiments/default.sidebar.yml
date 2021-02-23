@@ -1,0 +1,11 @@
+# This file was edited by Cloudbees Feature Flags
+type: experiment
+name: experiment for flag default.sidebar
+enabled: false
+flag: default.sidebar
+conditions:
+  - group:
+      operator: and
+      name: BetaUsers
+    value: true
+value: false
